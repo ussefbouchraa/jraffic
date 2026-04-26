@@ -12,7 +12,7 @@ public final class Constants {
     public static final double VEHICLE_LENGTH   = 20.0;
     public static final double SAFETY_GAP       = 25.0;
     public static final int    LANE_CAPACITY    = (int)(LANE_LENGTH / (VEHICLE_LENGTH + SAFETY_GAP));
-    public static final double CAR_SPEED        = 2.0;
+    public static final double CAR_SPEED        = 0.25;
     public static final double CAR_SIZE         = 20.0;
     public static final double LANE_OFFSET      = 40.0;
     public static final double ROAD_WIDTH       = 120.0;
