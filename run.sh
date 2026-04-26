@@ -17,5 +17,6 @@ fi
 java \
   --module-path "$JAVAFX_LIB" \
   --add-modules javafx.controls,javafx.fxml \
+  --enable-native-access=javafx.graphics \
   -cp "$OUT_DIR" \
   com.traffic.TrafficApp
